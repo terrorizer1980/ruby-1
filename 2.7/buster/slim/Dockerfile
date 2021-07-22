@@ -1,4 +1,4 @@
-FROM debian:buster-slim
+FROM debian:10.10-slim
 
 RUN set -eux; \
 	apt-get update; \
